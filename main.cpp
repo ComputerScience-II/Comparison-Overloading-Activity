@@ -128,9 +128,7 @@ void testCases() {
 	assert(!(c <= a));
 	assert(a <= d);
 
-	assert(!(b >= a));
 	assert(b >= a);
-	assert(!(c >= a));
 	assert(c >= a);
 	assert(d >= a);
 
@@ -161,6 +159,8 @@ int main() {
 	(x * z).pretty_print();
 	(x * z * z).pretty_print();
 	(x * z * z * z).pretty_print();
+
+	testCases();
 
 
 }
